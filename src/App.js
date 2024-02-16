@@ -2,7 +2,7 @@ import './App.css'
 import { CssBaseline, StyledEngineProvider } from '@mui/material'
 import { ThemeProvider } from '@mui/material/styles'
 import { useSelector } from 'react-redux'
-import themes from './components/themes'
+import themes from './themes'
 import MainLayout from './components/MainLayout'
 
 function App() {

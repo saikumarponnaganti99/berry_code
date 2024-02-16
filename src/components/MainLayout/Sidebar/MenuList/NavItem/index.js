@@ -7,7 +7,7 @@ import { useTheme } from '@mui/material/styles';
 import { Avatar, Chip, Link, ListItemButton, ListItemIcon, ListItemText, Typography, useMediaQuery } from '@mui/material';
 
 // project imports
-import { MENU_OPEN, SET_MENU } from '../../../../store/actions';
+import { MENU_OPEN, SET_MENU } from '../../../../../store/actions';
 
 // assets
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';

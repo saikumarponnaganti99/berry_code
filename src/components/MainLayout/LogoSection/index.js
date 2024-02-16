@@ -6,7 +6,7 @@ import { ButtonBase, Link } from '@mui/material';
 // project imports
 import config from '../../../config';
 import Logo from '../../../assets/images/Logo';
-import { MENU_OPEN } from '../../store/actions';
+import { MENU_OPEN } from '../../../store/actions';
 
 // ==============================|| MAIN LOGO ||============================== //
 

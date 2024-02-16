@@ -9,10 +9,11 @@ import { AppBar, Box, CssBaseline, Toolbar, useMediaQuery } from '@mui/material'
 import Breadcrumbs from '../ui-component/extended/Breadcrumbs';
 import Header from './Header';
 import Sidebar from './Sidebar';
+import Color from './Color';
 import Customization from '../Customization';
 import navigation from '../menu-items';
-import { drawerWidth } from '../store/constant';
-import { SET_MENU } from '../store/actions';
+import { drawerWidth } from '../../store/constant';
+import { SET_MENU } from '../../store/actions';
 
 // assets
 import { IconChevronRight } from '@tabler/icons-react';
@@ -84,9 +85,9 @@ const MainLayout = () => {
 
       {/* drawer */}
       <Sidebar drawerOpen={!matchDownMd ? leftDrawerOpened : !leftDrawerOpened} drawerToggle={handleLeftDrawerToggle} />
-
       {/* main content */}
       <Main theme={theme} open={leftDrawerOpened}>
+        <Color/>
         {/* breadcrumb */}
         <Breadcrumbs separator={IconChevronRight} navigation={navigation} icon title rightAlign />
         <Outlet />
