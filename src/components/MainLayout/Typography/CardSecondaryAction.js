@@ -3,7 +3,7 @@ import { useTheme } from "@mui/material/styles";
 import { ButtonBase, Link, Tooltip } from "@mui/material";
 
 // project imports
-import Avatar from "../../../components/MainLayout/Typography/Avatar";
+import Avatar from "../../../components/ui-component/extended/Avatar";
 
 // ==============================|| CARD SECONDARY ACTION ||============================== //
 
