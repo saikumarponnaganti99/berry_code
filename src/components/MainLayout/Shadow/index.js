@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { Box, Card, Grid } from '@mui/material';
 
 // project imports
-import SubCard from './SubCard';
-import MainCard from './MainCard';
+import SubCard from '../../ui-component/cards/SubCard';
+import MainCard from '../../ui-component/cards//MainCard';
 import SecondaryAction from './CardSecondaryAction';
 import { gridSpacing } from '../../../store/constant';
 
