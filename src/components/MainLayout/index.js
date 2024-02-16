@@ -15,7 +15,7 @@ import {
 import Breadcrumbs from "../ui-component/extended/Breadcrumbs";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
-import Typography from "./Typography";
+import SamplePage from "./SamplePage";
 import Customization from "../Customization";
 import navigation from "../menu-items";
 import { drawerWidth } from "../../store/constant";
@@ -100,7 +100,7 @@ const MainLayout = () => {
       />
       {/* main content */}
       <Main theme={theme} open={leftDrawerOpened}>
-        <Typography />
+        <SamplePage />
         {/* breadcrumb */}
         <Breadcrumbs
           separator={IconChevronRight}
