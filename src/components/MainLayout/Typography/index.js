@@ -2,8 +2,8 @@ import { Grid, Link } from "@mui/material";
 import MuiTypography from "@mui/material/Typography";
 
 // project imports
-import SubCard from "./SubCard";
-import MainCard from "./MainCard";
+import SubCard from "../../ui-component/cards/SubCard";
+import MainCard from "../../ui-component/cards/MainCard";
 import SecondaryAction from "./CardSecondaryAction";
 import { gridSpacing } from "../../../store/constant";
 
